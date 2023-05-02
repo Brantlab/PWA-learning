@@ -11,7 +11,7 @@ export class AppHome extends LitElement {
 
   // For more information on using properties and state in lit
   // check out this link https://lit.dev/docs/components/properties/
-  @property() message = 'Welcome!';
+  @property() message = 'Howdy Partner!';
 
   static get styles() {
     return [
@@ -88,18 +88,10 @@ export class AppHome extends LitElement {
             </div>
 
             <p>
-              For more information on the PWABuilder pwa-starter, check out the
-              <a href="https://docs.pwabuilder.com/#/starter/quick-start">
-                documentation</a>.
+              This is a test PWA
             </p>
 
             <p id="mainInfo">
-              Welcome to the
-              <a href="https://pwabuilder.com">PWABuilder</a>
-              pwa-starter! Be sure to head back to
-              <a href="https://pwabuilder.com">PWABuilder</a>
-              when you are ready to ship this PWA to the Microsoft Store, Google Play
-              and the Apple App Store!
             </p>
 
             ${'share' in navigator
@@ -108,24 +100,11 @@ export class AppHome extends LitElement {
           </sl-card>
 
           <sl-card id="infoCard">
-            <h2>Technology Used</h2>
+            <h2>Tesla PDF's</h2>
 
             <ul>
               <li>
-                <a href="https://www.typescriptlang.org/">TypeScript</a>
-              </li>
-
-              <li>
-                <a href="https://lit.dev">lit</a>
-              </li>
-
-              <li>
-                <a href="https://shoelace.style/">Shoelace</a>
-              </li>
-
-              <li>
-                <a href="https://github.com/thepassle/app-tools/blob/master/router/README.md"
-                  >App Tools Router</a>
+                <a href="https://www.tesla.com/sites/default/files/downloads/2021_Model_S_Emergency_Response_Sheet_en.pdf">Tesla Model S ERS</a>
               </li>
             </ul>
           </sl-card>
