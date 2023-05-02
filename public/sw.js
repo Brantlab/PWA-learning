@@ -6,3 +6,9 @@ importScripts(
 // code in this file, above the `precacheAndRoute` line.
 
 workbox.precaching.precacheAndRoute(self.__WB_MANIFEST || []);
+/*
+workbox.routing.registerRoute(
+  ({request}) => request.destination === 'file',
+  new workbox.strategies.CacheFirst()
+);
+*/
